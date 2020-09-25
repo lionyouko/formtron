@@ -28,7 +28,7 @@
                     <p>
                         Em relação ao número de alunos, colocar da UC que tenha sido escolhida nos critérios acima preenchidos. Separar por ";", se preciso.
                     </p>
-                    <p>Ao responder o formulário, serás enviado a página inicial e o processo está concluído.</p>
+                    <p>Ao responder o formulário, retornará à página inicial e o processo está concluído.</p>
                 </div>
                 <br>
                 <div class="form-group row d-inline">
