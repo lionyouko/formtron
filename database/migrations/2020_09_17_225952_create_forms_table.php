@@ -19,7 +19,17 @@ class CreateFormsTable extends Migration
 
             $table->string('nome');
             $table->string('email');
-            $table->string('MAC');
+            $table->string('uc');
+            $table->string('nalunos');
+
+            $table->string('cpu')->nullable();
+            $table->string('ram')->nullable();
+            $table->string('storage')->nullable();
+            $table->string('gpu')->nullable();
+            $table->string('net')->nullable();
+
+            $table->string('frameworks');
+            $table->string('observations')->nullable();
         });
     }
 

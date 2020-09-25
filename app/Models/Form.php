@@ -12,7 +12,15 @@ class Form extends Model
     protected $fillable = [
         'nome',
         'email',
-        'MAC',
+        'uc',
+        'nalunos',
+        'cpu',
+        'ram',
+        'storage',
+        'gpu',
+        'net',
+        'frameworks',
+        'observations',
     ];
 
 }
